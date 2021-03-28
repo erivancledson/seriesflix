@@ -1,0 +1,19 @@
+/*se a tela tiver no maximo esse tamanho aplica essa configurações */
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+}
+/* quando tiver no min 1000px a tela a descrição ocupe 50%*/
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
